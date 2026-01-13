@@ -1,8 +1,8 @@
-#INT
+# INT
 x = int(input("what's x? "))
 y = int(input("what's y? "))
 print(x + y)
-#FLOAT
+# FLOAT
 x = float(input("what's x? "))
 y = float(input("what's y? "))
 z = round(x + y)
@@ -18,7 +18,7 @@ y = float(input("what's y? "))
 z = x / y
 print(f"{z:.3f}")
 
-#DEF
+# DEF
 def main():
   x = int(input("What's x? "))
   print("x squared is", square(x))
