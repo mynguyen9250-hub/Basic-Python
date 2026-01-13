@@ -18,3 +18,10 @@ name = input("What's your name?").strip().title()
 first, last = name.split(" ")
 # Say hello to user
 print("Hello, ", first)
+# def
+def hello(to = "world"):
+  print("hello,", to)
+
+hello()
+name = input("What's your name? ").strip().title()
+hello(name)
