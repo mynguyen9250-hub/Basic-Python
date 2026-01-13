@@ -1,0 +1,19 @@
+#INT
+x = int(input("what's x? "))
+y = int(input("what's y? "))
+print(x + y)
+#FLOAT
+x = float(input("what's x? "))
+y = float(input("what's y? "))
+z = round(x + y)
+print(z)
+
+x = float(input("what's x? "))
+y = float(input("what's y? "))
+z = x/y
+print(f"{z:,}")
+
+x = float(input("what's x? "))
+y = float(input("what's y? "))
+z = x / y
+print(f"{z:.3f}")
