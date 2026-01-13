@@ -26,7 +26,7 @@ hello()
 name = input("What's your name? ").strip().title()
 hello(name)
 
-#Return values
+# Return values
 def greet(input):
   if "hello" in input:
     return "hello, there."
